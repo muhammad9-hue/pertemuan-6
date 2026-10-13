@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #aaffff 0%, #dfe1e4 100%);
+    border-left: 5px solid #ffc107;
+}
+
+.product-card {
+    transition: transform 0.3s ease, shadow 0.3s ease;
+    border: none;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
